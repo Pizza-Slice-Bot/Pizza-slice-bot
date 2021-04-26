@@ -81,7 +81,7 @@ font-size: 2.5vw;
 
 
 .wrapper{
-width: 860px; 
+width: 860px;
 margin: 0 auto;
 position: absolute;
 visibility: visible;
@@ -110,7 +110,7 @@ text-transform: uppercase;
 font-weight: bold;
 }
 .wrapper ul li:hover{
-background: #FFD700; 
+background: #FFD700;
 }
 
 .wrapper ul ul{
@@ -133,7 +133,7 @@ margin-left: 170px;
   top: 2%;
   left: 0%;
 
-  
+
 }
 
 .menu-wrap {
@@ -270,7 +270,7 @@ margin-left: 170px;
     left: 0;
     z-index: 1;
   }
-  
+
   .menu-wrap .toggler {
     position: absolute;
     top: 0;
@@ -281,7 +281,7 @@ margin-left: 170px;
     height: 100px;
     opacity: 0;
   }
-  
+
   .menu-wrap .hamburger {
     position: absolute;
     top: 0;
@@ -295,7 +295,7 @@ margin-left: 170px;
     align-items: center;
     justify-content: center;
   }
-  
+
 
   .menu-wrap .hamburger > div {
     position: relative;
@@ -308,7 +308,7 @@ margin-left: 170px;
     justify-content: center;
     transition: all 0.4s ease;
   }
-  
+
 
   .menu-wrap .hamburger > div::before,
   .menu-wrap .hamburger > div::after {
@@ -320,26 +320,26 @@ margin-left: 170px;
     height: 2px;
     background: inherit;
   }
-  
+
 
   .menu-wrap .hamburger > div::after {
     top: 10px;
   }
-  
+
   .menu-wrap .toggler:checked ~ .menu {
     visibility: visible;
   }
-  
+
   .menu-wrap .toggler:checked ~ .menu > div {
     transform: scale(1);
     transition-duration: var(--menu-speed);
   }
-  
+
   .menu-wrap .toggler:checked ~ .menu > div > div {
     opacity: 1;
     transition:  opacity 0.4s ease 0.4s;
   }
-  
+
   .menu-wrap .menu {
     position: fixed;
     top: 0;
@@ -353,7 +353,7 @@ margin-left: 170px;
     justify-content: center;
     background-color: #111;
   }
-  
+
   .menu-wrap .menu > div {
     background: var(--overlay-color);
     border-radius: 50%;
@@ -366,7 +366,7 @@ margin-left: 170px;
     transform: scale(0);
     transition: all 0.4s ease;
   }
-  
+
   .menu-wrap .menu > div > div {
     text-align: center;
     max-width: 90vw;
@@ -374,14 +374,14 @@ margin-left: 170px;
     opacity: 0;
     transition: opacity 0.4s ease;
   }
-  
+
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
     font-size: 3.5rem;
     padding: 2rem;
   }
-  
+
   .menu-wrap .menu > div > div > ul > li > a {
     color: yellow;
     text-decoration: none;
@@ -395,12 +395,12 @@ margin-left: 170px;
   }
 
   .wrapper{
-    width: 860px; 
+    width: 860px;
     margin: 0 auto;
     position: absolute;
     top: 0%;
     left: 23%
-    
+
     }
     .wrapper ul{
     list-style: none;
@@ -423,7 +423,7 @@ margin-left: 170px;
     }
     .wrapper ul li:hover{
     visibility: hidden;
-    background: #FFD700; 
+    background: #FFD700;
 }
     .pizza{
       width: 0vw;
@@ -490,8 +490,8 @@ margin-left: 170px;
   .btn-2:hover{
     background-color: #FFD700;
     top: 84%
-  
-  
+
+
   }
 
 
@@ -508,10 +508,10 @@ margin-left: 170px;
 
 .pizzaa {
   text-align: center;
-  font-size: 3.5vw;  
-  position: absolute; 
-  left: 37vw; 
-  top:20%; 
+  font-size: 3.5vw;
+  position: absolute;
+  left: 37vw;
+  top:20%;
   color:#FF8C00;
 }
 
@@ -974,6 +974,35 @@ margin-left: 170px;
   overflow: visible;
   border:2px solid black;
   transition: 0.3s;
+}
+
+.arr17 {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 185%;
+  background: #222;
+  padding: 15px 40px;
+  border-radius: 35px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 2%);
+  box-sizing: border-box;
+  overflow: visible;
+  border:2px solid black;
+  transition: 0.3s;
+}
+
+
+.title17{
+
+  color: white;
+  font-size: 25px;
+
+}
+
+.message17{
+  color: #888;
+  font-size: 15px;
 }
 
 
