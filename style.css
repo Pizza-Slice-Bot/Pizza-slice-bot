@@ -976,6 +976,18 @@ margin-left: 170px;
   transition: 0.3s;
 }
 
+.title12{
+
+  color: white;
+  font-size: 25px;
+
+}
+
+.message12{
+  color: #888;
+  font-size: 15px;
+}
+
 .arr17 {
   width: 80%;
   position: absolute;
@@ -1006,17 +1018,6 @@ margin-left: 170px;
 }
 
 
-.title12{
-
-  color: white;
-  font-size: 25px;
-
-}
-
-.message12{
-  color: #888;
-  font-size: 15px;
-}
 
 .arr1:hover{
   background-color: rgb(24, 24, 24);
