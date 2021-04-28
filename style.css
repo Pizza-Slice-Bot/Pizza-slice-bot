@@ -1128,3 +1128,26 @@ margin-left: 170px;
   color: orange;
   font-size: 15px;
 }
+
+.arr14 {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 65%;
+  background: #222;
+  padding: 15px 40px;
+  border-radius: 35px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 10px 10px rgb(0 0 0 / 2%);
+  box-sizing: border-box;
+  overflow: visible;
+  border:2px solid black;
+  transition: 0.3s;
+}
+
+
+
+.message14{
+  color: orange;
+  font-size: 15px;
+}
